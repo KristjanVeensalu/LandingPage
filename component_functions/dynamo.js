@@ -67,43 +67,31 @@ function changeBackground(){
 	var currentSeconds = currentTime.getSeconds ( );
 	/*------End-----*/
 	var imgA = [
-				"url('../Images/backgrounds/background15.gif')",/*At 900s*/
-				"url('../Images/backgrounds/background14.gif')",/*At 840s*/
-				"url('../Images/backgrounds/background13.gif')",/*At 780s*/
-				"url('../Images/backgrounds/background12.gif')",/*At 720s*/
-				"url('../Images/backgrounds/background11.gif')",/*At 660s*/
-				"url('../Images/backgrounds/background10.gif')",/*At 600s*/
 				"url('../Images/backgrounds/background9.gif')",/*At 540s*/
 				"url('../Images/backgrounds/background8.gif')",/*At 480s*/
 				"url('../Images/backgrounds/background7.gif')",/*At 420s*/
 				"url('../Images/backgrounds/background6.gif')",/*At 360s*/
-				"url('../Images/backgrounds/background5.gif')",/*At 300s*/
-				"url('../Images/backgrounds/background4.gif')",/*At 240s*/
 				"url('../Images/backgrounds/background3.gif')",/*At 180s*/
 				"url('../Images/backgrounds/background2.gif')",/*At 120s*/
-				"url('../Images/backgrounds/background1.gif')" /*At 60s*/ 
 				];
 
 	var textColor = [
-				"black",/*At 900s*/
-				"black",/*At 840s*/
-				"black",/*At 780s*/
-				"black",/*At 720s*/
-				"black",/*At 660s*/
-				"black",/*At 600s*/
 				"white",/*At 540s*/
 				"black",/*At 480s*/
 				"white",/*At 420s*/
 				"white",/*At 360s*/
-				"black",/*At 300s*/
-				"white",/*At 240s*/
 				"white",/*At 180s*/
 				"white",/*At 120s*/
-				"white" /*At 60s*/ 
 				];
-				
-	document.getElementById("body").style.background = imgA[14];
-	document.getElementById("body").style.color = textColor[14];
+	
+	var loaderColor = [
+						"12px solid green",
+						"12px solid red"
+						];
+
+
+	document.getElementById("body").style.background = imgA[13];
+	document.getElementById("body").style.color = textColor[13];
 	var repeater  = imgA.length;
 	var timedifference = 30000;//Every half-minute -- change this for longer time between changes
 	var timedifferenceSum = timedifference*imgA.length;

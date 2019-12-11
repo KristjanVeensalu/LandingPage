@@ -1,14 +1,13 @@
 body {
-	background-image: url("images/backgrounds/background2.gif");
-	background-repeat: repeat-x;
+	background-image: url("../images/backgrounds/background2.gif");
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	-o-background-size: cover !important;
 	/* Background transitions */
-	transition: background-image 1s linear;
-    -moz-transition: background-image 1s linear;
-    -webkit-transition: background-image 1s linear;
-    -ms-transition: background-image 1s linear;
+	transition: background-image 3s linear;
+    -moz-transition: background-image 3s linear;
+    -webkit-transition: background-image 3s linear;
+    -ms-transition: background-image 3s linear;
 	background-size: cover !important;
 	color: white;
 	margin: 0;
