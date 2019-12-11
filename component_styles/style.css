@@ -22,39 +22,12 @@ img{
 img:hover{
 	transform:scale(1.05);
 }
-#main{
-	font-family: 'Orbitron', sans-serif;
-}
-#clockLocal{
-	width: 100%;
-	height: 100px;
-	text-align: center;
-	line-height: 40px;
-	margin-top: 3%;
-	margin-bottom: 0%;
-	font-size: 60px;
-}
-#clockUTC{
-	width: 100%;
-	height: 100px;
-	text-align: center;
-	line-height: 40px;
-	font-size: 60px;
-}
-.clockOnly{
-	display: none;
-	width: 100%;
-	height: 100px;
-	text-align: center;
-	line-height: 40px;
-	font-size: 60px;
-}
 #linklist{
 	overflow: hidden;
 	align-content: center;
 	display: table;
 	width: unset;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 .LinkFirst{
 	display: inline-block;
@@ -135,19 +108,6 @@ a:active{
 		width: 100%;
 		margin-top: 0%;
 	}
-	.LinkLast{
-		padding-right: 0%;
-		background-color: red;
-		transform: scale(1);
-		clear: both;
-		margin-top: 0px;
-		width: 100%;
-		margin-top: 5px;
-		height: 150px;
-		margin-left: 0%;
-		margin-right: 0%;
-		float: left;
-	}
 	.LinkFirst{
 		padding-left: 0%;
 		background-color: red;
@@ -184,6 +144,19 @@ a:active{
 		margin-right: 0%;
 		float: left;
 	}
+	.LinkLast{
+		padding-right: 0%;
+		background-color: red;
+		transform: scale(1);
+		clear: both;
+		margin-top: 0px;
+		width: 100%;
+		margin-top: 5px;
+		height: 150px;
+		margin-left: 0%;
+		margin-right: 0%;
+		float: left;
+	}
 	.LinkSecond:hover > img{
     transform: scale(0.7);
     transition: all .3s ease-in-out;
@@ -215,22 +188,5 @@ a:active{
 	.LinkLast:hover{
 		transform:scale(1.1);
 		transition: all .2s ease-in-out;
-	}
-	#clockLocal{
-		display: none;
-	}
-	#clockUTC{
-		display: none;
-	}
-	.clockOnly{
-		display: inline;
-		transform: scale(0.6);
-		text-align: center;
-		font-weight: bold;
-	}
-	#main{
-		margin-top: 100px;
-		align-content: center;
-		display: flex;
 	}
 }

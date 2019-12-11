@@ -20,14 +20,22 @@
 			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
 			crossorigin="anonymous">
 	</script>
-	<link rel="stylesheet" 
-		  type="text/css" 
-		  href="component_styles/style.css" 
-	/>
 	<link href='https://fonts.googleapis.com/css?family=Orbitron' 
 		  rel='stylesheet' 
 		  type='text/css'
 	>
+	<link rel="stylesheet" 
+	type="text/css" 
+	href="../component_styles/style.css" 
+	/>
+	<link rel="stylesheet"
+	type="text/css"
+	href="../component_styles/clock.css"
+	/>
+	<link rel="stylesheet"
+	type="text/css"
+	href="../component_styles/loader.css"
+	/>
 	<title>New Tab</title>
 </head>
 
@@ -42,30 +50,30 @@
 		<div id = "clockOnly" class = "clockOnly">
 		</div>
 	</div>
-
-
+	<div class="loader">
+	</div>
 	<div class="container-fluid" id="linklist">
 		<a href="https://www.messenger.com/">
 			<div id = "LinkFirst" class="LinkFirst">
-				<img src="images/messengerIcon.png">
+				<img src="../images/messengerIcon.png">
 			</div>
 		</a>
 		<a href="https://www.facebook.com/">
 			<div id = "LinkSecond" class="LinkSecond">
-				<img src="images/facebookIcon.png">
+				<img src="../images/facebookIcon.png">
 			</div>
 		</a>
 		<a href="https://www.reddit.com/">
 			<div id = "LinkThird" class="LinkThird">
-					<img src="images/redditIcon2.png">
+					<img src="../images/redditIcon2.png">
 			</div>
 		</a>
 		<a href="https://www.youtube.com/">
 			<div id = "LinkLast" class="LinkLast">
-				<img src="images/youtubeIcon.png">
+				<img src="../images/youtubeIcon.png">
 			</div>
 		</a>
 	</div>
 </body>
-<script src = "dynamo.js"></Script>
+<script src = "../component_functions/dynamo.js"></Script>
 </html>

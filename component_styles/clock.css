@@ -1,0 +1,47 @@
+#main{
+	font-family: 'Orbitron', sans-serif;
+}
+#clockLocal{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 3%;
+	margin-bottom: 0%;
+	font-size: 60px;
+}
+#clockUTC{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 60px;
+}
+.clockOnly{
+	display: none;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 60px;
+}
+
+@media only screen and (max-width: 1225px) {
+	#clockLocal{
+		display: none;
+	}
+	#clockUTC{
+		display: none;
+	}
+	.clockOnly{
+		display: inline;
+		transform: scale(0.6);
+		text-align: center;
+		font-weight: bold;
+	}
+	#main{
+		margin-top: 50px;
+		align-content: center;
+		display: flex;
+	}
+}
